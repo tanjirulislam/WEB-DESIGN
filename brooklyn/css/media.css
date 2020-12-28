@@ -1,0 +1,250 @@
+/* extra small devices(potrait phones less than 576px) */
+@media( max-width: 575.98px){
+    /* header style start */
+    .slider-content h1{
+        font-size: 35px;
+    }
+    .slider-content p{
+      font-size: 20px;
+    }
+    .btn-learn{
+      font-size: 12px;
+      padding: 8px 8px;
+    }
+    .service-content{
+        text-align: center !important;
+    }
+    .common-title p{
+      font-size: 12px;
+    }
+    .service-after:after{
+      width: 50px;
+      right: 24%;
+  }
+  .service-after-1:after{
+      width: 50px;
+      right: 60%;
+  }
+  .card-body {
+    padding: 30px 0;
+}
+    .card .icon{
+        margin: 0 auto;
+    }
+    .card-after:after{
+        left: 50%;
+       transform: translateX(-50%);
+       margin-bottom: 90px;
+    }
+    /* service style */
+    .service-after-img-text p{
+      font-size: 14px;
+      text-align: center;
+    }
+    .filter-button-group button{
+      font-size: 14px;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    .isotope-img img{
+      height: auto;
+    }
+    .client .carousel-control-next{
+      position: absolute;
+      right: 20%;
+      top: -170px;
+    }
+    .client .carousel-control-prev{
+      position: absolute;
+      left: 18%;
+      top: -170px;
+    }
+    .client-item h6{
+      font-size: 14px;
+  }
+    .client-item p{
+      font-size: 12px;
+      margin-top: 30px;
+      padding-top: 20px;
+  }
+  .client-item .envato span{
+    font-size: 12px;
+    margin-top: 30px;
+}
+/* blog style */
+.blog-item{
+  margin-bottom: 30px;
+  text-align: center;
+}
+/* footer */
+.footer-before{
+  padding: 70px 0;
+}
+.f-text h4{
+  font-size: 14px;
+  text-align: center;
+  margin-top: -30px;
+  padding-top: 0;
+}
+.btn-buy{
+  font-size: 14px;
+  padding: 10px 30px;
+  margin: 10px 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+}
+/* small devices (landscape phone 576 and up)  */
+@media(min-width: 576px) and (max-width: 767.98px){
+  .service-after:after{
+    width: 50px;
+    right: 36%;
+}
+.service-after-1:after{
+    width: 50px;
+    right: 55%;
+}
+.service-content{
+  text-align: center !important;
+}
+.card-body {
+  padding: 40px 0;
+}
+  .card .icon{
+      margin: 0 auto;
+      padding-top: 20px;
+  }
+  .card-after:after{
+      left: 50%;
+     transform: translateX(-50%);
+  }
+  /* service setion */
+  .service-after-img-text p{
+    font-size: 14px;
+    text-align: center;
+  }
+  .filter-button-group button{
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .btn-isotope{
+    height: 293px;
+    width: 270px;
+}
+.client .carousel-control-next{
+  position: absolute;
+  right: 25%;
+  top: -130px;
+}
+.client .carousel-control-prev{
+  position: absolute;
+  left: 27%;
+  top: -130px;
+}
+/* blog style */
+.blog-item{
+  margin-bottom: 30px;
+  text-align: center;
+}
+/* footer */
+.f-text h4{
+  margin-top: -30px;
+}
+.btn-buy{
+  font-size: 15px;
+  padding: 15px 50px;
+  margin: 10px 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+}
+/* medium devices (tablets,768 and up)  */
+@media(min-width: 768px) and (max-width: 991.98px){
+  .service-after:after{
+    width: 50px;
+    right: 40%;
+}
+.service-after-img-text p{
+  font-size: 16px;
+  text-align: center;
+}
+.filter-button-group button{
+  font-size: 14px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0;
+}
+.img-1 img{
+  height: 259px;
+}
+.btn-isotope{
+  height: 131px;
+}
+.client .carousel-control-next{
+  position: absolute;
+  right: 28%;
+  top: -130px;
+}
+.client .carousel-control-prev{
+  position: absolute;
+  left: 30%;
+  top: -130px;
+}
+/* blog style */
+.blog-item{
+  margin-bottom: 30px;
+}
+/* footer */
+.btn-buy{
+  font-size: 15px;
+  padding: 20px 30px;
+  margin: 10px 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+}
+/* large devices (desktop,992 an up)  */
+@media(min-width: 992px) and (max-width: 1199.98px){
+
+}
+/* extra large devices(large desktops,1200 and up)  */
+@media(min-width:1200px){
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+  }
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+  }
